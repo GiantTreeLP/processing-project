@@ -1,7 +1,9 @@
 # Processing sample projects
+
 Sample projects for Processing for use in IntelliJ IDEA.
 
 It's as simple as it sounds: Just copy the code and begin programming!
+
 ___
 
 To configure the libraries, follow these simple steps:
