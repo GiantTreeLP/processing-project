@@ -18,7 +18,7 @@ To configure the libraries, follow these simple steps:
 ![Add from Maven](img/add-from-maven.png)
 
     1. Search and add `org.jogamp.gluegen:gluegen-rt`:  
-    ![Add gluegen-rt](img/add-gluegen.png)
+    ![Add gluegen-rt](img/add-gluegen.png)  
     Repeat this step for `org.jogamp.jogl:jogl-all` and `org.processing:core`.  
     Use the latest version available or any one you like.
     
