@@ -2,39 +2,23 @@
 
 Sample projects for Processing for use in IntelliJ IDEA.
 
-It's as simple as it sounds: Just copy the code and begin programming!
+It's as simple as it sounds: Clone this repository and begin programming!
 
-___
+---
 
-To configure the libraries, follow these simple steps:
+## Compiling
 
-1. Open up the *Project Structure* (Ctrl+Alt+Shift+S):  
-![CTRL+ALT+SHIFT+S](img/project-structure.png)
+Use the provided `pom.xml` file to compile and package this project using Maven.
+It comes already setup so run `mvn package` and your `.jar` file is ready to go.
 
-1. Go to *Global Libraries*:  
-![Global Libraries](img/global-libs.png)
+## Extending
 
-1. Add the needed libraries using Maven:  
-![Add from Maven](img/add-from-maven.png)
+Extending the code is as simple as it sounds.
+Simply write your code like this is any other Processing sketch.
+There is a `// TODO` comment for you where you can easily write your code.
 
-    1. Search and add `org.jogamp.gluegen:gluegen-rt`:  
-    ![Add gluegen-rt](img/add-gluegen.png)  
-    Repeat this step for `org.jogamp.jogl:jogl-all` and `org.processing:core`.  
-    Use the latest version available or any one you like.
-    
-1. Switch to *Modules*:  
-   ![Switch to Modules](img/modules.png)
+## Contributing
 
-    1. Add the libraries you just downloaded:  
-    
-        1. Add the libraries:  
-        ![Add libraries](img/add-to-module.png)
-        
-        1. Select the libraries:  
-        ![Select libraries](img/add-libraries.png)
-    
-        1. Hit OK:  
-        ![Hit OK!](img/hit-ok.png)
-    
-1. Launch the sample:  
-![Launch the sample](img/launch-sample.png)
+If you want to contribute (I don't even know what you could contribute, really), just leave a Pull Request.
+It would be nice, if you matched the style of the original source.
+If you can't, I will fix your formatting.

@@ -12,4 +12,9 @@ public class JavaSample extends PWindow {
     public void settings() {
         size(600, 400);
     }
+
+    @Override
+    public void onDraw() {
+        // TODO write your code here!
+    }
 }
